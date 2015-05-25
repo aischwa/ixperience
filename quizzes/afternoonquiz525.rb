@@ -16,10 +16,12 @@ def silly_check(num)
 		"The number is greater than or equal to 5"
 	end
 end
+
 #Q4
 def funify(arr)
 	arr << "fun"
 end
+
 #Q5
 def more_fun(arr)
 	arr.first = "FUN FUN"
@@ -34,6 +36,7 @@ class Dog
 		"Ruff ruff"
 	end
 end
+
 #Q6
 lucy = Dog.new
 lucy.bark
@@ -65,4 +68,17 @@ alex = Person.new
 alex.updateage(20)
 p alex.returnage
 
-#Q10 wut
+#Q10
+class Person2
+	name_accessor :name
+	age_accessor :age
+
+	def initialize(name, age)
+		@name = name
+		@age = age
+	end
+end
+
+alex = Person2.new
+alex.name = "Alex"
+alex.age = 20
