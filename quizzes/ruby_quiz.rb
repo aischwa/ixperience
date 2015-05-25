@@ -76,4 +76,3 @@ bruce.binge_eat(fishinst)
 
 bruce.what_i_ate
 # STEP 11: Bruce is happy. Call what_i_ate to see what he ate.
-
