@@ -56,11 +56,13 @@ class Person
 		@age = age
 	end
 
-	def returnage(age)
+	def returnage
 		@age
 	end
 end
 
-
+alex = Person.new
+alex.updateage(20)
+p alex.returnage
 
 #Q10 wut
